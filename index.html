@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вислови авторів</title>
+    <style>
+        .button-container {
+            margin: 20px;
+            text-align: center;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .quote {
+            margin: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button onclick="showQuote('tolstoy')">Л. Толстой</button>
+        <button onclick="showQuote('holoborodko')">В. Голобородько</button>
+        <button onclick="showQuote('gogol')">М. Гоголь</button>
+        <button onclick="showQuote('chelebi')">Е. Челебі</button>
+        <button onclick="showQuote('pakhlevska')">О. Пахльовська</button>
+    </div>
+    <div class="quote" id="quote"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
